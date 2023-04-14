@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.290">
+  <meta name="generator" content="quarto-1.3.324">
 
   <title>index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -324,19 +324,17 @@
     <div class="slides">
 
 
-<section>
 <section id="a-brief-introduction-to-git-and-github" class="title-slide slide level1 center" data-background-image="https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1686&amp;q=80" data-background-color="black">
 <h1>A Brief Introduction to Git and Github</h1>
-<p><code>r Sys.Date()</code></p>
+<p>Michael Luu</p>
+<p>April 14, 2023</p>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
 
-<img data-src="https://uidaholib.github.io/get-git/images/phd101212s.gif" class="quarto-discovered-preview-image r-stretch quarto-figure-center"></section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<section>
+<section id="section" class="title-slide slide level1 center">
+<h1></h1>
 
-<img data-src="https://imgs.xkcd.com/comics/git.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="https://uidaholib.github.io/get-git/images/phd101212s.gif" class="r-stretch quarto-figure-center"></section>
 <section id="what-is-git" class="slide level2">
 <h2>What is git?</h2>
 <blockquote>
@@ -358,23 +356,37 @@
 <p><img data-src="https://github.githubassets.com/images/modules/open_graph/github-octocat.png" width="400"></p>
 </figure>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn2"><p>Wikipedia</p></li></ol></aside></section>
-<section id="section-2" class="slide level2">
-<h2></h2>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>Wikipedia</p></li></ol></aside></section></section>
+<section id="section-1" class="title-slide slide level1 center">
+<h1></h1>
 
 <img data-src="https://andersenlab.org/dry-guide/2022-03-09/img/git_v_github.png" class="r-stretch quarto-figure-center"></section>
-<section id="git-jargon" class="slide level2">
-<h2>Git Jargon</h2>
+
+<section>
+<section id="section-2" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="https://imgs.xkcd.com/comics/git.png" class="r-stretch quarto-figure-center"></section>
+<section id="important-git-jargon" class="slide level2">
+<h2>Important Git Jargon</h2>
 <ul>
-<li>Repo</li>
-<li>Stage</li>
-<li>Diff</li>
-<li>Commit</li>
-<li>Pull</li>
-<li>Push</li>
-<li>Branch</li>
+<li><p><strong>Repo (Repository)</strong> - A repo or repository is generally a folder in which git manages and tracks the files that are contained within.</p></li>
+<li><p><strong>Staging</strong> - This is a ‘holding area’ of the files that you would like to version control. We need to ‘stage’ a file before we can ‘commit’ it.</p></li>
+<li><p><strong>Commit</strong> - A commit is a ‘snapshot’ of current changes among the files that have been ‘staged’ in your repository. A commit also requires a small message or text description, in which you can describe the changes.</p></li>
 </ul>
 </section>
+<section id="important-but-not-as-critical" class="slide level2">
+<h2>Important but not as critical</h2>
+<ul>
+<li><p><strong>Branching</strong> - Git allows for a non-linear workflow, in which we can ‘branch’ away from the current source. With Git we can create infinite number of branches in which we can experiment without affecting the main source code.</p></li>
+<li><p><strong>Push &amp; Pull</strong> - If git is configured to work with Github, <strong>push</strong> allows us to push the changes to a remote repository (Github), and <strong>pull</strong> allows us to pull in the changes from Github</p></li>
+</ul>
+</section></section>
+<section>
+<section id="section-3" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="https://www.gitkraken.com/wp-content/uploads/2021/03/git-flow-4.svg" class="r-stretch quarto-figure-center"></section>
 <section id="why-you-should-use-it" class="slide level2">
 <h2>Why you should use it?</h2>
 <blockquote>
@@ -616,6 +628,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

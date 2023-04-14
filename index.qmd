@@ -2,61 +2,77 @@
 format: revealjs
 ---
 
-# A Brief Introduction to Git and Github {background-image='https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1686&q=80' background-color='black'}
+```{r}
+library(tidyverse)
+library(knitr)
+```
 
-`r Sys.Date()`
+# A Brief Introduction to Git and Github {background-image="https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1686&q=80" background-color="black"}
 
-## 
+| Michael Luu
 
-![](https://uidaholib.github.io/get-git/images/phd101212s.gif){fig-align=center}
+`r format(Sys.Date(), '%B %d, %Y')`
 
-##
+# 
 
-![](https://imgs.xkcd.com/comics/git.png){fig-align=center}
+![](https://uidaholib.github.io/get-git/images/phd101212s.gif){fig-align="center"}
 
 ## What is git?
 
-> Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.^[Wikipedia]
+> Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.[^1]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/768px-Git-logo.svg.png?20160811101906){width=200 fig-align=center}
+[^1]: Wikipedia
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/768px-Git-logo.svg.png?20160811101906){width="200" fig-align="center"}
 
 ## What is GitHub?
 
-> GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.^[Wikipedia]
+> GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.[^2]
 
-![](https://github.githubassets.com/images/modules/open_graph/github-octocat.png){width=400 fig-align=center}
+[^2]: Wikipedia
 
-## 
+![](https://github.githubassets.com/images/modules/open_graph/github-octocat.png){width="400" fig-align="center"}
 
-![](https://andersenlab.org/dry-guide/2022-03-09/img/git_v_github.png){fig-align=center}
+#
 
-## Git Jargon
+![](https://andersenlab.org/dry-guide/2022-03-09/img/git_v_github.png){fig-align="center"}
 
-* Repo
-* Stage
-* Diff
-* Commit
-* Pull
-* Push
-* Branch
+# 
+
+![](https://imgs.xkcd.com/comics/git.png){fig-align="center"}
+
+## Important Git Jargon
+
+-   **Repo (Repository)** - A repo or repository is generally a folder in which git manages and tracks the files that are contained within.
+
+-   **Staging** - This is a 'holding area' of the files that you would like to version control. We need to 'stage' a file before we can 'commit' it.
+
+-   **Commit** - A commit is a 'snapshot' of current changes among the files that have been 'staged' in your repository. A commit also requires a small message or text description, in which you can describe the changes.
+
+## Important but not as critical
+-   **Branching** - Git allows for a non-linear workflow, in which we can 'branch' away from the current source. With Git we can create infinite number of  branches in which we can experiment without affecting the main source code.
+
+-   **Push & Pull** - If git is configured to work with Github, **push** allows us to push the changes to a remote repository (Github), and **pull** allows us to pull in the changes from Github
+
+#
+
+![](https://www.gitkraken.com/wp-content/uploads/2021/03/git-flow-4.svg){fig-align="center"}
 
 ## Why you should use it?
 
-> Using a Git commit is like using anchors and other protection when climbing. If you’re crossing a dangerous rock face you want to make sure you’ve used protection to catch you if you fall.
+> Using a Git commit is like using anchors and other protection when climbing. If you're crossing a dangerous rock face you want to make sure you've used protection to catch you if you fall.
 
-* Reproducible research
-* Transparency
-* Collaboration
-* Exposure
+-   Reproducible research
+-   Transparency
+-   Collaboration
+-   Exposure
 
-## How do we use it? 
+## How do we use it?
 
-* GitHub Desktop
-* CLI
-* Already built into Rstudio
+-   GitHub Desktop
+-   CLI
+-   Already built into Rstudio
 
 ## The setup
 
-* Personal Access Token
-
-
+-   Personal Access Token
