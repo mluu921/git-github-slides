@@ -92,11 +92,9 @@ library(knitr)
 
 -   There is a barrier to entry on getting your local git repository to 'talk' with Github
 
--   There is a GUI (graphical user interface) to Git via **Github Desktop** that remedies some of these barriers
+-   There are a GUI (graphical user interface) to Git such as **Github Desktop** that remedies some of these barriers
 
-## git is complicated
-
-![](images/github-desktop.png){fig-align="center"}
+-   Rstudio has a basic git gui integration
 
 ## git is complicated
 
@@ -107,7 +105,11 @@ library(knitr)
     -   Writing **commit** messages to describe the changes
     -   **Pushing** your work to Github
 
+## Github Desktop
 
+![](images/github-desktop.png){fig-align="center"}
 
+## Rstudio Git Integration
 
+![](images/rstudio-git.png){fig-align="center"}
 
