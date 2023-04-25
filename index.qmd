@@ -49,30 +49,65 @@ library(knitr)
 
 -   **Commit** - A commit is a 'snapshot' of current changes among the files that have been 'staged' in your repository. A commit also requires a small message or text description, in which you can describe the changes.
 
-## Important but not as critical
+## Important Git Jargon
 -   **Branching** - Git allows for a non-linear workflow, in which we can 'branch' away from the current source. With Git we can create infinite number of  branches in which we can experiment without affecting the main source code.
 
--   **Push & Pull** - If git is configured to work with Github, **push** allows us to push the changes to a remote repository (Github), and **pull** allows us to pull in the changes from Github
+-   **Push & Pull** - If git is configured to work with Github (or another remote repository), **push** allows us to push the changes to a remote repository (Github), and **pull** allows us to pull in the changes from Github
 
 #
 
-![](https://www.gitkraken.com/wp-content/uploads/2021/03/git-flow-4.svg){fig-align="center"}
+![](https://www.nobledesktop.com/image/blog/git-branches-merge.png){fig-align="center"}
+
+# 
+
+![](http://www.phdcomics.com/comics/archive/phd031214s.gif){fig-align="center"}
 
 ## Why you should use it?
 
-> Using a Git commit is like using anchors and other protection when climbing. If you're crossing a dangerous rock face you want to make sure you've used protection to catch you if you fall.
+-   git provides a highly structured workflow that promotes reproducibility and transparency
 
--   Reproducible research
--   Transparency
--   Collaboration
--   Exposure
+-   git provides a continuous log of the changes you have done on your project / analysis (via **Commit Messages**)
 
-## How do we use it?
+-   git provides the ability to travel through time with the files in your project - easily jump back to previous versions of files (via **Commits**)
 
--   GitHub Desktop
--   CLI
--   Already built into Rstudio
+-   git provides the freedom to explore new ideas/analysis without the fear of affecting your primary analysis (via **Branching**)
 
-## The setup
+## Why you should use it?
 
--   Personal Access Token
+-   Github provides a remote backup of your git **repository**
+
+-   Github provides a highly structured method of sharing your **repository** with other collaborators
+
+-   Github provides you with an online presence (think of this as an online portfolio of your work)
+
+-   Github provides you with a free online hosting / website for your project
+
+-   Git and Github is a industry standard version control system - this skill is transferable to many industries
+
+# However...
+
+## git is complicated
+
+-   git is designed as a command line tool (e.g. to take full advantage of git, you will have to learn commands to enter in the terminal)
+
+-   There is a barrier to entry on getting your local git repository to 'talk' with Github
+
+-   There is a GUI (graphical user interface) to Git via **Github Desktop** that remedies some of these barriers
+
+## git is complicated
+
+![](images/github-desktop.png){fig-align="center"}
+
+## git is complicated
+
+-   There's additional work to consider in your current workflow
+    -   Storing your project into a "project folder"
+    -   Making the folder a git **repository**
+    -   Making commits at logical points in time to snapshot your project
+    -   Writing **commit** messages to describe the changes
+    -   **Pushing** your work to Github
+
+
+
+
+
