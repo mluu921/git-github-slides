@@ -84,6 +84,10 @@ library(knitr)
 
 -   Git and Github is a industry standard version control system - this skill is transferable to many industries
 
+## 
+
+![](images/github-luu-michael.png){fig-align="center"}
+
 # However...
 
 ## git is complicated
