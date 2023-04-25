@@ -327,7 +327,7 @@
 <section id="a-brief-introduction-to-git-and-github" class="title-slide slide level1 center" data-background-image="https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1686&amp;q=80" data-background-color="black">
 <h1>A Brief Introduction to Git and Github</h1>
 <p>Michael Luu</p>
-<p>April 14, 2023</p>
+<p>April 24, 2023</p>
 </section>
 
 <section>
@@ -375,42 +375,70 @@
 <li><p><strong>Commit</strong> - A commit is a ‘snapshot’ of current changes among the files that have been ‘staged’ in your repository. A commit also requires a small message or text description, in which you can describe the changes.</p></li>
 </ul>
 </section>
-<section id="important-but-not-as-critical" class="slide level2">
-<h2>Important but not as critical</h2>
+<section id="important-git-jargon-1" class="slide level2">
+<h2>Important Git Jargon</h2>
 <ul>
 <li><p><strong>Branching</strong> - Git allows for a non-linear workflow, in which we can ‘branch’ away from the current source. With Git we can create infinite number of branches in which we can experiment without affecting the main source code.</p></li>
-<li><p><strong>Push &amp; Pull</strong> - If git is configured to work with Github, <strong>push</strong> allows us to push the changes to a remote repository (Github), and <strong>pull</strong> allows us to pull in the changes from Github</p></li>
+<li><p><strong>Push &amp; Pull</strong> - If git is configured to work with Github (or another remote repository), <strong>push</strong> allows us to push the changes to a remote repository (Github), and <strong>pull</strong> allows us to pull in the changes from Github</p></li>
 </ul>
 </section></section>
-<section>
 <section id="section-3" class="title-slide slide level1 center">
 <h1></h1>
 
-<img data-src="https://www.gitkraken.com/wp-content/uploads/2021/03/git-flow-4.svg" class="r-stretch quarto-figure-center"></section>
+<img data-src="https://www.nobledesktop.com/image/blog/git-branches-merge.png" class="r-stretch quarto-figure-center"></section>
+
+<section>
+<section id="section-4" class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="http://www.phdcomics.com/comics/archive/phd031214s.gif" class="r-stretch quarto-figure-center"></section>
 <section id="why-you-should-use-it" class="slide level2">
 <h2>Why you should use it?</h2>
-<blockquote>
-<p>Using a Git commit is like using anchors and other protection when climbing. If you’re crossing a dangerous rock face you want to make sure you’ve used protection to catch you if you fall.</p>
-</blockquote>
 <ul>
-<li>Reproducible research</li>
-<li>Transparency</li>
-<li>Collaboration</li>
-<li>Exposure</li>
+<li><p>git provides a highly structured workflow that promotes reproducibility and transparency</p></li>
+<li><p>git provides a continuous log of the changes you have done on your project / analysis (via <strong>Commit Messages</strong>)</p></li>
+<li><p>git provides the ability to travel through time with the files in your project - easily jump back to previous versions of files (via <strong>Commits</strong>)</p></li>
+<li><p>git provides the freedom to explore new ideas/analysis without the fear of affecting your primary analysis (via <strong>Branching</strong>)</p></li>
 </ul>
 </section>
-<section id="how-do-we-use-it" class="slide level2">
-<h2>How do we use it?</h2>
+<section id="why-you-should-use-it-1" class="slide level2">
+<h2>Why you should use it?</h2>
 <ul>
-<li>GitHub Desktop</li>
-<li>CLI</li>
-<li>Already built into Rstudio</li>
+<li><p>Github provides a remote backup of your git <strong>repository</strong></p></li>
+<li><p>Github provides a highly structured method of sharing your <strong>repository</strong> with other collaborators</p></li>
+<li><p>Github provides you with an online presence (think of this as an online portfolio of your work)</p></li>
+<li><p>Github provides you with a free online hosting / website for your project</p></li>
+<li><p>Git and Github is a industry standard version control system - this skill is transferable to many industries</p></li>
+</ul>
+</section></section>
+<section>
+<section id="however" class="title-slide slide level1 center">
+<h1>However…</h1>
+
+</section>
+<section id="git-is-complicated" class="slide level2">
+<h2>git is complicated</h2>
+<ul>
+<li><p>git is designed as a command line tool (e.g.&nbsp;to take full advantage of git, you will have to learn commands to enter in the terminal)</p></li>
+<li><p>There is a barrier to entry on getting your local git repository to ‘talk’ with Github</p></li>
+<li><p>There is a GUI (graphical user interface) to Git via <strong>Github Desktop</strong> that remedies some of these barriers</p></li>
 </ul>
 </section>
-<section id="the-setup" class="slide level2">
-<h2>The setup</h2>
+<section id="git-is-complicated-1" class="slide level2">
+<h2>git is complicated</h2>
+
+<img data-src="images/github-desktop.png" class="r-stretch quarto-figure-center"></section>
+<section id="git-is-complicated-2" class="slide level2">
+<h2>git is complicated</h2>
 <ul>
-<li>Personal Access Token</li>
+<li>There’s additional work to consider in your current workflow
+<ul>
+<li>Storing your project into a “project folder”</li>
+<li>Making the folder a git <strong>repository</strong></li>
+<li>Making commits at logical points in time to snapshot your project</li>
+<li>Writing <strong>commit</strong> messages to describe the changes</li>
+<li><strong>Pushing</strong> your work to Github</li>
+</ul></li>
 </ul>
 <div class="footer footer-default">
 
