@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.324">
+  <meta name="generator" content="quarto-1.3.340">
 
   <title>index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -327,7 +327,7 @@
 <section id="a-brief-introduction-to-git-and-github" class="title-slide slide level1 center" data-background-image="https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1686&amp;q=80" data-background-color="black">
 <h1>A Brief Introduction to Git and Github</h1>
 <p>Michael Luu</p>
-<p>April 24, 2023</p>
+<p>May 01, 2023</p>
 </section>
 
 <section>
@@ -357,28 +357,46 @@
 </figure>
 </div>
 <aside><ol class="aside-footnotes"><li id="fn2"><p>Wikipedia</p></li></ol></aside></section></section>
+<section>
 <section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 
 <img data-src="https://andersenlab.org/dry-guide/2022-03-09/img/git_v_github.png" class="r-stretch quarto-figure-center"></section>
-
+<section id="reproducible-research" class="slide level2 smaller">
+<h2>Reproducible Research</h2>
+<ul>
+<li><p><strong>Scientific validity:</strong> If scientific findings cannot be replicated, it is difficult to determine if the original results were valid or if they were the result of chance or other factors.</p></li>
+<li><p><strong>Translation to clinical practice:</strong> If scientific findings cannot be replicated, it is difficult to determine if the results are reliable enough to be used in clinical practice.</p></li>
+<li><p><strong>Time and resource savings:</strong> If scientific findings are reproducible, researchers can build on previous work with greater confidence, reducing the need to repeat experiments and analyses.</p></li>
+<li><p><strong>Trust and credibility:</strong> If scientific findings are not reproducible, it can erode trust in the scientific community and lead to skepticism about scientific findings.</p></li>
+</ul>
+<aside class="notes">
+<p>Reproducible research in biomedical research refers to the ability to reproduce or replicate scientific findings using the same data, methods, and analysis as the original study. In biomedical research, reproducibility is critical as it is essential for ensuring the accuracy and reliability of scientific findings.</p>
+<p>To ensure reproducibility in biomedical research, researchers need to use appropriate methods and analysis, provide detailed documentation of their work, and make their data and analysis code available for others to review and replicate. This can be facilitated by using tools such as Git and GitHub, which provide version control and collaboration features that make it easier to share and reproduce research results.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
 <section>
 <section id="section-2" class="title-slide slide level1 center">
 <h1></h1>
 
 <img data-src="https://imgs.xkcd.com/comics/git.png" class="r-stretch quarto-figure-center"></section>
-<section id="important-git-jargon" class="slide level2">
+<section id="important-git-jargon" class="slide level2 smaller">
 <h2>Important Git Jargon</h2>
 <ul>
 <li><p><strong>Repo (Repository)</strong> - A repo or repository is generally a folder in which git manages and tracks the files that are contained within.</p></li>
 <li><p><strong>Staging</strong> - This is a ‘holding area’ of the files that you would like to version control. We need to ‘stage’ a file before we can ‘commit’ it.</p></li>
 <li><p><strong>Commit</strong> - A commit is a ‘snapshot’ of current changes among the files that have been ‘staged’ in your repository. A commit also requires a small message or text description, in which you can describe the changes.</p></li>
-</ul>
-</section>
-<section id="important-git-jargon-1" class="slide level2">
-<h2>Important Git Jargon</h2>
-<ul>
-<li><p><strong>Branching</strong> - Git allows for a non-linear workflow, in which we can ‘branch’ away from the current source. With Git we can create infinite number of branches in which we can experiment without affecting the main source code.</p></li>
+<li><p><strong>Branching &amp; Merging</strong> - Git allows for a non-linear workflow, in which we can ‘branch’ away from the current source. With Git we can create infinite number of branches in which we can experiment without affecting the main source code. If content, we can merge those changes from various branches back to the main source.</p></li>
 <li><p><strong>Push &amp; Pull</strong> - If git is configured to work with Github (or another remote repository), <strong>push</strong> allows us to push the changes to a remote repository (Github), and <strong>pull</strong> allows us to pull in the changes from Github</p></li>
 </ul>
 </section></section>
@@ -392,7 +410,7 @@
 <h1></h1>
 
 <img data-src="http://www.phdcomics.com/comics/archive/phd031214s.gif" class="r-stretch quarto-figure-center"></section>
-<section id="why-you-should-use-it" class="slide level2">
+<section id="why-you-should-use-it" class="slide level2 smaller">
 <h2>Why you should use it?</h2>
 <ul>
 <li><p>git provides a highly structured workflow that promotes reproducibility and transparency</p></li>
@@ -401,7 +419,7 @@
 <li><p>git provides the freedom to explore new ideas/analysis without the fear of affecting your primary analysis (via <strong>Branching</strong>)</p></li>
 </ul>
 </section>
-<section id="why-you-should-use-it-1" class="slide level2">
+<section id="why-you-should-use-it-1" class="slide level2 smaller">
 <h2>Why you should use it?</h2>
 <ul>
 <li><p>Github provides a remote backup of your git <strong>repository</strong></p></li>
