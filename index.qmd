@@ -138,5 +138,3 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 ![](images/rstudio-git.png){fig-align="center"}
 
-# Live Demo
-
