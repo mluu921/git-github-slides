@@ -59,7 +59,7 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 ![](https://imgs.xkcd.com/comics/git.png){fig-align="center"}
 
-## Important Git Jargon
+## Important Git Jargon {.smaller}
 
 -   **Repo (Repository)** - A repo or repository is generally a folder in which git manages and tracks the files that are contained within.
 
@@ -67,7 +67,6 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   **Commit** - A commit is a 'snapshot' of current changes among the files that have been 'staged' in your repository. A commit also requires a small message or text description, in which you can describe the changes.
 
-## Important Git Jargon
 -   **Branching** - Git allows for a non-linear workflow, in which we can 'branch' away from the current source. With Git we can create infinite number of  branches in which we can experiment without affecting the main source code.
 
 -   **Push & Pull** - If git is configured to work with Github (or another remote repository), **push** allows us to push the changes to a remote repository (Github), and **pull** allows us to pull in the changes from Github
@@ -80,7 +79,7 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 ![](http://www.phdcomics.com/comics/archive/phd031214s.gif){fig-align="center"}
 
-## Why you should use it?
+## Why you should use it? {.smaller}
 
 -   git provides a highly structured workflow that promotes reproducibility and transparency
 
@@ -90,7 +89,7 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   git provides the freedom to explore new ideas/analysis without the fear of affecting your primary analysis (via **Branching**)
 
-## Why you should use it?
+## Why you should use it? {.smaller}
 
 -   Github provides a remote backup of your git **repository**
 
