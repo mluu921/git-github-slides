@@ -67,7 +67,7 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   **Commit** - A commit is a 'snapshot' of current changes among the files that have been 'staged' in your repository. A commit also requires a small message or text description, in which you can describe the changes.
 
--   **Branching** - Git allows for a non-linear workflow, in which we can 'branch' away from the current source. With Git we can create infinite number of  branches in which we can experiment without affecting the main source code.
+-   **Branching & Merging** - Git allows for a non-linear workflow, in which we can 'branch' away from the current source. With Git we can create infinite number of  branches in which we can experiment without affecting the main source code. If content, we can merge those changes from various branches back to the main source.
 
 -   **Push & Pull** - If git is configured to work with Github (or another remote repository), **push** allows us to push the changes to a remote repository (Github), and **pull** allows us to pull in the changes from Github
 
