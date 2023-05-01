@@ -37,6 +37,24 @@ library(knitr)
 
 ![](https://andersenlab.org/dry-guide/2022-03-09/img/git_v_github.png){fig-align="center"}
 
+## Reproducible Research {.smaller}
+
+-   **Scientific validity:** If scientific findings cannot be replicated, it is difficult to determine if the original results were valid or if they were the result of chance or other factors.
+
+-   **Translation to clinical practice:** If scientific findings cannot be replicated, it is difficult to determine if the results are reliable enough to be used in clinical practice.
+
+-   **Time and resource savings:** If scientific findings are reproducible, researchers can build on previous work with greater confidence, reducing the need to repeat experiments and analyses.
+
+-   **Trust and credibility:** If scientific findings are not reproducible, it can erode trust in the scientific community and lead to skepticism about scientific findings.
+
+::: {.notes}
+
+Reproducible research in biomedical research refers to the ability to reproduce or replicate scientific findings using the same data, methods, and analysis as the original study. In biomedical research, reproducibility is critical as it is essential for ensuring the accuracy and reliability of scientific findings. 
+
+To ensure reproducibility in biomedical research, researchers need to use appropriate methods and analysis, provide detailed documentation of their work, and make their data and analysis code available for others to review and replicate. This can be facilitated by using tools such as Git and GitHub, which provide version control and collaboration features that make it easier to share and reproduce research results.
+
+:::
+
 # 
 
 ![](https://imgs.xkcd.com/comics/git.png){fig-align="center"}
