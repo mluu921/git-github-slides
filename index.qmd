@@ -33,33 +33,37 @@ library(knitr)
 
 ![](https://github.githubassets.com/images/modules/open_graph/github-octocat.png){width="400" fig-align="center"}
 
-#
+# 
 
 ![](https://andersenlab.org/dry-guide/2022-03-09/img/git_v_github.png){fig-align="center"}
 
-## Reproducible Research {.smaller}
+::: notes
+Emphasize how you can use git without github, but you can't use github without git
+:::
+
+## Reproducible Research
 
 -   **Scientific validity:** If scientific findings cannot be replicated, it is difficult to determine if the original results were valid or if they were the result of chance or other factors.
 
 -   **Translation to clinical practice:** If scientific findings cannot be replicated, it is difficult to determine if the results are reliable enough to be used in clinical practice.
 
+## Reproducible Research
+
 -   **Time and resource savings:** If scientific findings are reproducible, researchers can build on previous work with greater confidence, reducing the need to repeat experiments and analyses.
 
 -   **Trust and credibility:** If scientific findings are not reproducible, it can erode trust in the scientific community and lead to skepticism about scientific findings.
 
-::: {.notes}
-
-Reproducible research in biomedical research refers to the ability to reproduce or replicate scientific findings using the same data, methods, and analysis as the original study. In biomedical research, reproducibility is critical as it is essential for ensuring the accuracy and reliability of scientific findings. 
+::: notes
+Reproducible research in biomedical research refers to the ability to reproduce or replicate scientific findings using the same data, methods, and analysis as the original study. In biomedical research, reproducibility is critical as it is essential for ensuring the accuracy and reliability of scientific findings.
 
 To ensure reproducibility in biomedical research, researchers need to use appropriate methods and analysis, provide detailed documentation of their work, and make their data and analysis code available for others to review and replicate. This can be facilitated by using tools such as Git and GitHub, which provide version control and collaboration features that make it easier to share and reproduce research results.
-
 :::
 
 # 
 
 ![](https://imgs.xkcd.com/comics/git.png){fig-align="center"}
 
-## Important Git Jargon {.smaller}
+## Important Git Jargon
 
 -   **Repo (Repository)** - A repo or repository is generally a folder in which git manages and tracks the files that are contained within.
 
@@ -67,11 +71,17 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   **Commit** - A commit is a 'snapshot' of current changes among the files that have been 'staged' in your repository. A commit also requires a small message or text description, in which you can describe the changes.
 
--   **Branching & Merging** - Git allows for a non-linear workflow, in which we can 'branch' away from the current source. With Git we can create infinite number of  branches in which we can experiment without affecting the main source code. If content, we can merge those changes from various branches back to the main source.
+## Important Git Jargon
+
+-   **Branching & Merging** - Git allows for a non-linear workflow, in which we can 'branch' away from the current source. With Git we can create infinite number of branches in which we can experiment without affecting the main source code. If content, we can merge those changes from various branches back to the main source.
+
+## Important Git Jargon
 
 -   **Push & Pull** - If git is configured to work with Github (or another remote repository), **push** allows us to push the changes to a remote repository (Github), and **pull** allows us to pull in the changes from Github
 
-#
+-   **Cloning** - Allows the user to create **clone** of the Github repository, including the files, history, and branches onto the local machine
+
+# 
 
 ![](https://www.nobledesktop.com/image/blog/git-branches-merge.png){fig-align="center"}
 
@@ -79,7 +89,7 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 ![](http://www.phdcomics.com/comics/archive/phd031214s.gif){fig-align="center"}
 
-## Why you should use it? {.smaller}
+## Why you should use it?
 
 -   git provides a highly structured workflow that promotes reproducibility and transparency
 
@@ -89,7 +99,7 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   git provides the freedom to explore new ideas/analysis without the fear of affecting your primary analysis (via **Branching**)
 
-## Why you should use it? {.smaller}
+## Why you should use it?
 
 -   Github provides a remote backup of your git **repository**
 
@@ -101,12 +111,6 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   Git and Github is a industry standard version control system - this skill is transferable to many industries
 
-## 
-
-![](images/github-luu-michael.png){fig-align="center"}
-
-# However...
-
 ## git is complicated
 
 -   git is designed as a command line tool (e.g. to take full advantage of git, you will have to learn commands to enter in the terminal)
@@ -115,7 +119,7 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   There are a GUI (graphical user interface) to Git such as **Github Desktop** and git integration (**rstudio**) that remedies some of these barriers
 
-## git is complicated 
+## git is complicated
 
 -   Although git can version control any type of files, it is best used in conjunction with text files (e.g. source code)
 
@@ -130,11 +134,52 @@ To ensure reproducibility in biomedical research, researchers need to use approp
     -   Writing **commit** messages to describe the changes
     -   **Pushing** your work to Github
 
-## Github Desktop
+# Setting up Git and Github
 
-![](images/github-desktop.png){fig-align="center"}
+## 
 
-## Rstudio Git Integration
+![](images/image-1139309375.png){fig-align="center" width="75%"}
 
-![](images/rstudio-git.png){fig-align="center"}
+::: footer
+<https://git-scm.com/>
+:::
+
+## 
+
+![](images/git-installation-gif.gif){fig-align="center" width="75%"}
+
+## 
+
+![](images/image-281748332.png){fig-align="center" width="90%"}
+
+::: footer
+<https://github.com/>
+:::
+
+::: notes
+Free acounts do not allow you to create private repositories, however as employees of Cedars (which is a academic institution), we are provided free paid accounts which includes the ability to create private repositories
+:::
+
+##
+
+![](images/github-luu-michael.png){fig-align="center"}
+
+# Creating a Git Repository
+
+## 
+
+![](images/rstudio-git-repository.gif){fig-align="center"}
+
+# Making a Commit
+
+
+# Github Desktop
+
+##
+
+![](images/github-desktop-web.png){fig-align="center" width="70%"}
+
+::: footer
+<https://desktop.github.com/>
+:::
 
