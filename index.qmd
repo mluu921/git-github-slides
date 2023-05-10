@@ -164,16 +164,9 @@ Free acounts do not allow you to create private repositories, however as employe
 
 ![](images/github-luu-michael.png){fig-align="center"}
 
-# Creating a Git Repository
-
-## 
-
-![](images/rstudio-git-repository.gif){fig-align="center"}
-
-# Making a Commit
-
-
-# Github Desktop
+::: footer
+<https://github.com/mluu921/>
+:::
 
 ##
 
@@ -182,4 +175,19 @@ Free acounts do not allow you to create private repositories, however as employe
 ::: footer
 <https://desktop.github.com/>
 :::
+
+# Creating a Git Repository
+
+## 
+
+![](images/rstudio-git-repository.gif){fig-align="center"}
+
+## 
+
+![](images/github-destkop-repository.gif){fig-align="center"}
+
+# Staging and Commiting
+
+
+
 
