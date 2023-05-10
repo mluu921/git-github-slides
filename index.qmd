@@ -13,6 +13,12 @@ library(knitr)
 
 May 11, 2023
 
+# {.center}
+
+Slides are publicly available at:
+
+<https://mluu921.github.io/git-github-slides/>
+
 # 
 
 ![](images/phd101212s.gif){fig-align="center"}
