@@ -178,15 +178,99 @@ Free acounts do not allow you to create private repositories, however as employe
 
 # Creating a Git Repository
 
-## 
+<!-- ##  -->
 
-![](images/rstudio-git-repository.gif){fig-align="center"}
+<!-- ![](images/rstudio-git-repository.gif){fig-align="center"} -->
 
 ## 
 
 ![](images/github-destkop-repository.gif){fig-align="center"}
 
 # Staging and Commiting
+
+## Making a commit
+
+![](images/github-desktop-staging-commit.gif){fig-align="center"}
+
+## Making additional commits
+
+![](images/github-desktop-staging-commit2.gif){fig-align="center"}
+
+# Branching and Merging
+
+## Creating and switching branch
+
+![](images/github-desktop-create-switch-branch.gif){fig-align="center"}
+
+## Making a commit on a branch
+
+![](images/github-desktop-branch-commit.gif){fig-align="center"}
+
+## Merging branches
+
+![](images/github-desktop-merging-branch.gif){fig-align="center"}
+
+## Deleting branches
+
+![](images/github-desktop-deleting-branch.gif){fig-align="center"}
+
+## Creating a branch from a commit
+
+![](images/github-desktop-branch-from-commit.gif){fig-align="center"}
+
+# Publishing a repo
+
+## Publishing a repo
+
+![](images/github-desktop-publish-repo.gif){fig-align="center"}
+
+::: footer
+
+<https://github.com/mluu921/my-test-repository>
+
+:::
+
+# Cloning a repo
+
+## Cloning a repo
+
+![](images/github-desktop-cloning.gif){fig-align="center"}
+
+## Cloning a repo
+
+* Git repository of test repository
+    * https://github.com/mluu921/my-test-repository
+
+* Git repository of current slides 
+    * https://github.com/mluu921/git-github-slides
+
+## References {.smaller}
+
+* Peng, R. D. (2011). Reproducible research in computational science. Science, 334(6060), 1226-1227. https://doi.org/10.1126/science.1213847
+
+* Sandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten simple rules for reproducible computational research. PLoS computational biology, 9(10), e1003285. https://doi.org/10.1371/journal.pcbi.1003285
+
+* Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K. (2017). Good enough practices in scientific computing. PLoS computational biology, 13(6), e1005510. https://doi.org/10.1371/journal.pcbi.1005510
+
+* Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F. D. V., ... & Vizcaíno, J. A. (2016). Ten simple rules for taking advantage of git and GitHub. PLoS computational biology, 12(7), e1004947. https://doi.org/10.1371/journal.pcbi.1004947
+
+* Stodden, V., Seiler, J., & Ma, Z. (2018). An empirical analysis of journal policy effectiveness for computational reproducibility. Proceedings of the National Academy of Sciences, 115(11), 2584-2589. https://doi.org/10.1073/pnas.1708290115
+
+## Additional Resources
+
+* https://happygitwithr.com/
+
+* https://git-scm.com/book/en/v2
+
+
+
+
+
+
+
+
+
+
 
 
 
