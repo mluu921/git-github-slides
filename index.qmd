@@ -1,5 +1,11 @@
 ---
-format: revealjs
+format:
+  revealjs:
+    menu: false
+    slide-number: true
+    chalkboard: true
+    transition: slide
+    transition-speed: fast
 ---
 
 ```{r}
