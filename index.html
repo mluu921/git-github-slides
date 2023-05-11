@@ -363,7 +363,6 @@
 </figure>
 </div>
 <aside><ol class="aside-footnotes"><li id="fn2"><p>Wikipedia</p></li></ol></aside></section></section>
-<section>
 <section id="section-2" class="title-slide slide level1 center">
 <h1></h1>
 
@@ -381,34 +380,50 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="reproducible-research" class="slide level2">
-<h2>Reproducible Research</h2>
-<ul>
-<li><p><strong>Scientific validity:</strong> If scientific findings cannot be replicated, it is difficult to determine if the original results were valid or if they were the result of chance or other factors.</p></li>
-<li><p><strong>Translation to clinical practice:</strong> If scientific findings cannot be replicated, it is difficult to determine if the results are reliable enough to be used in clinical practice.</p></li>
-</ul>
+
+<section>
+<section id="why" class="title-slide slide level1 center">
+<h1>Why…?</h1>
+
 </section>
-<section id="reproducible-research-1" class="slide level2">
-<h2>Reproducible Research</h2>
+<section id="section-3" class="slide level2">
+<h2></h2>
+
+<img data-src="images/not-reproducible-figure.png" class="r-stretch quarto-figure-center"></section>
+<section id="reproduciblity-crisis" class="slide level2">
+<h2>Reproduciblity Crisis</h2>
 <ul>
-<li><p><strong>Time and resource savings:</strong> If scientific findings are reproducible, researchers can build on previous work with greater confidence, reducing the need to repeat experiments and analyses.</p></li>
-<li><p><strong>Trust and credibility:</strong> If scientific findings are not reproducible, it can erode trust in the scientific community and lead to skepticism about scientific findings.</p></li>
+<li><p>The reproducibility crisis refers to the fact that many scientific findings in biomedical research cannot be replicated by independent researchers.</p></li>
+<li><p>The crisis has led to calls for increased transparency and data sharing in scientific research, as well as greater emphasis on replication studies to confirm the validity of scientific findings.</p></li>
 </ul>
-<aside class="notes">
-<p>Reproducible research in biomedical research refers to the ability to reproduce or replicate scientific findings using the same data, methods, and analysis as the original study. In biomedical research, reproducibility is critical as it is essential for ensuring the accuracy and reliability of scientific findings.</p>
-<p>To ensure reproducibility in biomedical research, researchers need to use appropriate methods and analysis, provide detailed documentation of their work, and make their data and analysis code available for others to review and replicate. This can be facilitated by using tools such as Git and GitHub, which provide version control and collaboration features that make it easier to share and reproduce research results.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+
+<aside><div>
+<div class="smaller">
+<ul>
+<li>Peng, R. D. (2011). Reproducible research in computational science. Science, 334(6060), 1226-1227. https://doi.org/10.1126/science.1213847</li>
+</ul>
+</div>
+</div></aside></section>
+<section id="reproduciblity-crisis-1" class="slide level2">
+<h2>Reproduciblity Crisis</h2>
+<blockquote>
+<p>An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible—in the United States alone.</p>
+</blockquote>
+
+<aside><div>
+<ul>
+<li>Freedman LP, Cockburn IM, Simcoe TS (2015) The Economics of Reproducibility in Preclinical Research. PLoS Biol 13(6): e1002165. https://doi.org/10.1371/journal.pbio.1002165</li>
+</ul>
+</div></aside></section></section>
+<section>
+<section id="reproducible-research" class="title-slide slide level1 center">
+<h1>Reproducible Research</h1>
+
 </section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+
+<img data-src="images/39-reproducible-replicable-robust-generalisable.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="important-git-jargon" class="slide level2">
 <h2>Important Git Jargon</h2>
 <ul>
@@ -430,13 +445,13 @@
 <li><p><strong>Cloning</strong> - Allows the user to create <strong>clone</strong> of the Github repository, including the files, history, and branches onto the local machine</p></li>
 </ul>
 </section></section>
-<section id="section-3" class="title-slide slide level1 center">
+<section id="section-5" class="title-slide slide level1 center">
 <h1></h1>
 
 <img data-src="images/git-branches-merge.png" class="r-stretch quarto-figure-center"></section>
 
 <section>
-<section id="section-4" class="title-slide slide level1 center">
+<section id="section-6" class="title-slide slide level1 center">
 <h1></h1>
 
 <img data-src="images/phd031214s.gif" class="r-stretch quarto-figure-center"></section>
@@ -458,23 +473,21 @@
 <li><p>Github provides you with a free online hosting / website for your project</p></li>
 <li><p>Git and Github is a industry standard version control system - this skill is transferable to many industries</p></li>
 </ul>
+</section></section>
+<section>
+<section id="however" class="title-slide slide level1 center">
+<h1>However…</h1>
+
 </section>
 <section id="git-is-complicated" class="slide level2">
 <h2>git is complicated</h2>
 <ul>
 <li><p>git is designed as a command line tool (e.g.&nbsp;to take full advantage of git, you will have to learn commands to enter in the terminal)</p></li>
 <li><p>There is a barrier to entry on getting your local git repository to ‘talk’ with Github</p></li>
-<li><p>There are a GUI (graphical user interface) to Git such as <strong>Github Desktop</strong> and git integration (<strong>rstudio</strong>) that remedies some of these barriers</p></li>
+<li><p>Although git can version control any type of files, it is best used in conjunction with text files (e.g.&nbsp;source code)</p></li>
 </ul>
 </section>
 <section id="git-is-complicated-1" class="slide level2">
-<h2>git is complicated</h2>
-<ul>
-<li><p>Although git can version control any type of files, it is best used in conjunction with text files (e.g.&nbsp;source code)</p></li>
-<li><p>Although possible, It is not recommended to use git in conjunction with large databases as it can slow it down significantly</p></li>
-</ul>
-</section>
-<section id="git-is-complicated-2" class="slide level2">
 <h2>git is complicated</h2>
 <ul>
 <li>There’s additional work to consider in your current workflow
@@ -492,18 +505,18 @@
 <h1>Setting up Git and Github</h1>
 
 </section>
-<section id="section-5" class="slide level2">
+<section id="section-7" class="slide level2">
 <h2></h2>
 
 <img data-src="images/image-1139309375.png" style="width:75.0%" class="r-stretch quarto-figure-center"><div class="footer">
 <p><a href="https://git-scm.com/" class="uri">https://git-scm.com/</a></p>
 </div>
 </section>
-<section id="section-6" class="slide level2">
+<section id="section-8" class="slide level2">
 <h2></h2>
 
 <img data-src="images/git-installation-gif.gif" style="width:75.0%" class="r-stretch quarto-figure-center"></section>
-<section id="section-7" class="slide level2">
+<section id="section-9" class="slide level2">
 <h2></h2>
 
 <img data-src="images/image-281748332.png" style="width:90.0%" class="r-stretch quarto-figure-center"><div class="footer">
@@ -523,18 +536,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-8" class="slide level2">
+<section id="section-10" class="slide level2">
 <h2></h2>
 
 <img data-src="images/github-luu-michael.png" class="r-stretch quarto-figure-center"><div class="footer">
 <p><a href="https://github.com/mluu921/" class="uri">https://github.com/mluu921/</a></p>
 </div>
 </section>
-<section id="section-9" class="slide level2">
+<section id="section-11" class="slide level2">
 <h2></h2>
 
 <img data-src="images/git.png" class="r-stretch quarto-figure-center"></section>
-<section id="section-10" class="slide level2">
+<section id="section-12" class="slide level2">
 <h2></h2>
 
 <img data-src="images/github-desktop-web.png" style="width:70.0%" class="r-stretch quarto-figure-center"><div class="footer">
@@ -546,7 +559,7 @@
 <h1>Creating a Git Repository</h1>
 
 </section>
-<section id="section-11" class="slide level2">
+<section id="section-13" class="slide level2">
 <h2></h2>
 
 <img data-src="images/github-destkop-repository.gif" class="r-stretch quarto-figure-center"></section></section>
@@ -614,29 +627,19 @@
 <ul>
 <li>Git repository of test repository
 <ul>
-<li>https://github.com/mluu921/my-test-repository</li>
+<li><a href="https://github.com/mluu921/my-test-repository" class="uri">https://github.com/mluu921/my-test-repository</a></li>
 </ul></li>
 <li>Git repository of current slides
 <ul>
-<li>https://github.com/mluu921/git-github-slides</li>
+<li><a href="https://github.com/mluu921/git-github-slides" class="uri">https://github.com/mluu921/git-github-slides</a></li>
 </ul></li>
-</ul>
-</section>
-<section id="references" class="slide level2 smaller">
-<h2>References</h2>
-<ul>
-<li><p>Peng, R. D. (2011). Reproducible research in computational science. Science, 334(6060), 1226-1227. https://doi.org/10.1126/science.1213847</p></li>
-<li><p>Sandve, G. K., Nekrutenko, A., Taylor, J., &amp; Hovig, E. (2013). Ten simple rules for reproducible computational research. PLoS computational biology, 9(10), e1003285. https://doi.org/10.1371/journal.pcbi.1003285</p></li>
-<li><p>Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., &amp; Teal, T. K. (2017). Good enough practices in scientific computing. PLoS computational biology, 13(6), e1005510. https://doi.org/10.1371/journal.pcbi.1005510</p></li>
-<li><p>Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F. D. V., … &amp; Vizcaíno, J. A. (2016). Ten simple rules for taking advantage of git and GitHub. PLoS computational biology, 12(7), e1004947. https://doi.org/10.1371/journal.pcbi.1004947</p></li>
-<li><p>Stodden, V., Seiler, J., &amp; Ma, Z. (2018). An empirical analysis of journal policy effectiveness for computational reproducibility. Proceedings of the National Academy of Sciences, 115(11), 2584-2589. https://doi.org/10.1073/pnas.1708290115</p></li>
 </ul>
 </section>
 <section id="additional-resources" class="slide level2 smaller">
 <h2>Additional Resources</h2>
 <ul>
-<li><p><a href="https://happygitwithr.com/" class="uri">https://happygitwithr.com/</a></p></li>
-<li><p><a href="https://git-scm.com/book/en/v2" class="uri">https://git-scm.com/book/en/v2</a></p></li>
+<li><p><a href="https://happygitwithr.com/" class="uri">https://happygitwithr.com/</a> (Git / Github Integration with Rstudio)</p></li>
+<li><p><a href="https://git-scm.com/book/en/v2" class="uri">https://git-scm.com/book/en/v2</a> (Definitive Git Book)</p></li>
 </ul>
 <div class="footer footer-default">
 
