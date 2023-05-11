@@ -13,7 +13,7 @@ library(knitr)
 
 May 11, 2023
 
-# {.center}
+#  {.center}
 
 Slides are publicly available at:
 
@@ -47,23 +47,43 @@ Slides are publicly available at:
 Emphasize how you can use git without github, but you can't use github without git
 :::
 
-## Reproducible Research
+# Why...?
 
--   **Scientific validity:** If scientific findings cannot be replicated, it is difficult to determine if the original results were valid or if they were the result of chance or other factors.
+## 
 
--   **Translation to clinical practice:** If scientific findings cannot be replicated, it is difficult to determine if the results are reliable enough to be used in clinical practice.
+![](images/not-reproducible-figure.png){fig-align="center"}
 
-## Reproducible Research
+## Reproduciblity Crisis
 
--   **Time and resource savings:** If scientific findings are reproducible, researchers can build on previous work with greater confidence, reducing the need to repeat experiments and analyses.
+* The reproducibility crisis refers to the fact that many scientific findings in biomedical research cannot be replicated by independent researchers.
 
--   **Trust and credibility:** If scientific findings are not reproducible, it can erode trust in the scientific community and lead to skepticism about scientific findings.
+* The crisis has led to calls for increased transparency and data sharing in scientific research, as well as greater emphasis on replication studies to confirm the validity of scientific findings.
 
-::: notes
-Reproducible research in biomedical research refers to the ability to reproduce or replicate scientific findings using the same data, methods, and analysis as the original study. In biomedical research, reproducibility is critical as it is essential for ensuring the accuracy and reliability of scientific findings.
+::: aside 
 
-To ensure reproducibility in biomedical research, researchers need to use appropriate methods and analysis, provide detailed documentation of their work, and make their data and analysis code available for others to review and replicate. This can be facilitated by using tools such as Git and GitHub, which provide version control and collaboration features that make it easier to share and reproduce research results.
+::: {.smaller}
+
+* Peng, R. D. (2011). Reproducible research in computational science. Science, 334(6060), 1226-1227. https://doi.org/10.1126/science.1213847
+
 :::
+
+:::
+
+## Reproduciblity Crisis
+
+> An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible—in the United States alone.
+
+::: aside 
+
+* Freedman LP, Cockburn IM, Simcoe TS (2015) The Economics of Reproducibility in Preclinical Research. PLoS Biol 13(6): e1002165. https://doi.org/10.1371/journal.pbio.1002165
+
+:::
+
+# Reproducible Research
+
+## 
+
+![](images/39-reproducible-replicable-robust-generalisable.jpg){fig-align="center"}
 
 ## Important Git Jargon
 
@@ -113,19 +133,15 @@ To ensure reproducibility in biomedical research, researchers need to use approp
 
 -   Git and Github is a industry standard version control system - this skill is transferable to many industries
 
+# However...
+
 ## git is complicated
 
 -   git is designed as a command line tool (e.g. to take full advantage of git, you will have to learn commands to enter in the terminal)
 
 -   There is a barrier to entry on getting your local git repository to 'talk' with Github
 
--   There are a GUI (graphical user interface) to Git such as **Github Desktop** and git integration (**rstudio**) that remedies some of these barriers
-
-## git is complicated
-
 -   Although git can version control any type of files, it is best used in conjunction with text files (e.g. source code)
-
--   Although possible, It is not recommended to use git in conjunction with large databases as it can slow it down significantly
 
 ## git is complicated
 
@@ -170,7 +186,7 @@ Free acounts do not allow you to create private repositories, however as employe
 <https://github.com/mluu921/>
 :::
 
-##
+## 
 
 ![](images/git.png){fig-align="center"}
 
@@ -239,24 +255,12 @@ Free acounts do not allow you to create private repositories, however as employe
 ## Cloning a repo
 
 -   Git repository of test repository
-    -   https://github.com/mluu921/my-test-repository
+    -   <https://github.com/mluu921/my-test-repository>
 -   Git repository of current slides
-    -   https://github.com/mluu921/git-github-slides
-
-## References {.smaller}
-
--   Peng, R. D. (2011). Reproducible research in computational science. Science, 334(6060), 1226-1227. https://doi.org/10.1126/science.1213847
-
--   Sandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten simple rules for reproducible computational research. PLoS computational biology, 9(10), e1003285. https://doi.org/10.1371/journal.pcbi.1003285
-
--   Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K. (2017). Good enough practices in scientific computing. PLoS computational biology, 13(6), e1005510. https://doi.org/10.1371/journal.pcbi.1005510
-
--   Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F. D. V., ... & Vizcaíno, J. A. (2016). Ten simple rules for taking advantage of git and GitHub. PLoS computational biology, 12(7), e1004947. https://doi.org/10.1371/journal.pcbi.1004947
-
--   Stodden, V., Seiler, J., & Ma, Z. (2018). An empirical analysis of journal policy effectiveness for computational reproducibility. Proceedings of the National Academy of Sciences, 115(11), 2584-2589. https://doi.org/10.1073/pnas.1708290115
+    -   <https://github.com/mluu921/git-github-slides>
 
 ## Additional Resources {.smaller}
 
--   <https://happygitwithr.com/>
+-   <https://happygitwithr.com/> (Git / Github Integration with Rstudio)
 
--   <https://git-scm.com/book/en/v2>
+-   <https://git-scm.com/book/en/v2> (Definitive Git Book)
